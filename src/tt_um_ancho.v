@@ -15,7 +15,7 @@ module tt_um_ancho (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
-    Ancho #c1 (.clock(ui_in[7]),.enable(ui_in[6]),.speed(ui_in[5:3]),.PWM(uo_out[7]));
-    assign uo_out [6:0]= 7'b0000000;
-    assign uio_out [7:0] = 8'b00000000;
+    ancho # c1(.clock(ui_in[7]), .enable(ui_in[6]),.speed(ui_in[5:3]), .PWM(uo_out[0]));
+    assing uo_out[7:1]=7*b0000000;
+    assing uio_out[7:0]=8*b00000000;
 endmodule
