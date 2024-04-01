@@ -15,8 +15,6 @@ module tt_um_ancho (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
-
-  // All output pins must be assigned. If not used, assign to 0.
 ancho (.clock(ui_in[7]), .enable(ui_in[6]),.speed(ui_in[5:3]),.PWM(uo_out[7]));
     assign uo_out [6:0]= 7'b0000000;
     assign uio_out [7:0] = 8'b00000000;
