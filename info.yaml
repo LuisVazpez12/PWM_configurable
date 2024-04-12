@@ -25,9 +25,9 @@ pinout:
   ui[0]: "no use"
   ui[1]: "no use"
   ui[2]: "no use"
-  ui[3]: "Bit 0"
-  ui[4]: "Bit 1"
-  ui[5]: "Bit 2"
+  ui[3]: "speed[0]"
+  ui[4]: "speed[1]"
+  ui[5]: "speed[3]"
   ui[6]: "enable"
   ui[7]: "clock"
 
