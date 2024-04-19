@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
   title:        "Circuito PWM con ciclo de trabajo configurable"      # Project title
-  author:       "María Fernanda Tovany Salvador, Javier Trucios Alonso & Luis David Vázquez Pérez"      # Your name
+  author:       "Maria Fernanda Tovany Salvador, Javier Trucios Alonso & Luis David Vazquez Perez"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  " A partir de tres señales de entrada digitales selecciona el ciclo de trabajo de salida (PWM)."      # One line description of what your project does
+  description:  " A partir de tres senales de entrada digitales selecciona el ciclo de trabajo de salida (PWM)."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
