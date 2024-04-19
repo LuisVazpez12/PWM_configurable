@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-`define default_netname none
+`define MF_JA_LD none
 
 module tt_um_ancho (
     input  wire [7:0] ui_in,    // Dedicated inputs
